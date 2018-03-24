@@ -1,0 +1,145 @@
+*{
+	/*background-color: rgba(0,0,0,.09);*/
+}
+img{
+	border-radius: 3px;
+}
+.name{
+	text-align: right;
+	height: 150px;
+	overflow: hidden;
+}
+.name .xiangqing{
+	margin-top: 20px;
+	margin: 0 auto;
+}
+.touxiang .tupian{
+	height: 150px;
+	display: inline;
+}
+
+.touxiang .tupian a.tooltip-list{
+	/*position: fixed;*/
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+	
+}
+.touxiang .tupian a img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	/*display :invertical-align : middle;*/
+	margin:auto auto;
+
+}
+
+.jianjie{
+	height: 95px;
+	margin-top: 15px;
+	z-index: -3;
+}
+
+.jianjie h3{
+	margin: 5px 0;
+	color: #fff;
+	background-color: #000;
+	height: 30px;
+	width: 120px;
+	text-align: center;
+	line-height: 30px;
+}
+.jianjie  p{
+	margin-bottom: 5px;
+}
+
+.jieshao{
+	margin-top: 20px;
+}
+
+.workHistory{
+	margin-top: 10px;
+}
+.gongzuo{
+	padding: 10px;
+	z-index: -1;
+
+}
+.workHistory .gongzuo .gongzuojingli{
+
+}
+
+.workHistory .gongzuo .workDay p{
+	text-align: right;
+}
+.workHistory .gongzuo .title h2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.workHistory .gongzuo .yuan{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-color: #000;
+}
+.workHistory .gongzuo .shu1, .workHistory .gongzuo .shu2{
+	margin: 0 auto;
+	width: 5px;
+	margin-top: -5px;
+	background-color: #000;
+	text-align: center;
+
+}
+.workHistory .gongzuo .shu1{
+	height: 140px;
+}
+.workHistory .gongzuo .shu2{
+	height: 230px;
+}
+
+.col-sm-5{
+	border-left: 1px solid #ccc;
+	z-index: -1;
+}
+
+.jianjie .picBox img{
+	margin: auto auto;
+}
+
+
+
+@media screen and (max-width:1200px){
+	.workHistory .gongzuo .shu1, .workHistory .gongzuo .shu2,.workHistory .gongzuo .yuan{
+		display: none;
+	}
+	.workHistory .gongzuo .title h2{
+		margin-bottom: 10px;
+	}
+
+
+}
+
+@media screen and (max-width:1000px){
+	.name{
+		height: 90px;
+	}
+	.name .xiangqing,.tel .jianjie p{
+		text-align: center;
+	}
+	.tel .jianjie h3{
+		margin: 5px auto;
+		color: #000;
+		background-color: #fff;
+		height: 30px;
+		width: 120px;
+		text-align: center;
+		line-height: 30px;
+	}
+	/*.jieshao{
+		margin: 10px 0;
+	}*/
+}
+
